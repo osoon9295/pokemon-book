@@ -9,18 +9,6 @@
 
 ![Folder Structure](/public/pokemon-book.png)
 
-         <!-- * 📁 app - 📁 api - 📁 pokemon - 📄 route.ts(메인 페이지와 연결)
-                              📁 [id] - 📄 route.ts(상세 페이지와 연결)
-                     📁 detail - 📁 [id] - 📄 page.tsx (상세페이지)
-                📄 globals.css
-                📄 layout.tsx
-                📄 page.tsx (메인페이지)
-                📄 provider.tsx (tanstackquery 관련)
-          * 📁 components - 📄 PokemonDetail.tsx (app/detail/[id]/page.tsx의 자식컴포넌트)
-                            📄 PokemonItem.tsx (componets/PokemonList.tsx의 자식컴포넌트)
-                            📄 PokemonList.tsx (app/page.tsx의 자식컴포넌트)
-          * 📁 types - 📄 pokemon.ts -->
-
 구현 내용
 
 - Metadata 설정 => ref. app/layout.tsx, app/detail/[id]/page.tsx
