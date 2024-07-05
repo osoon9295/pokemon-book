@@ -1,6 +1,6 @@
 # Pokemon-Book
 
-프로젝트 기간 : 2024.07.03 - 2024.07.05
+프로젝트 기간 : 2024.07.03 - 2024.07.05  
 프로젝트 내용 : 1세대 포켓몬들에 대한 정보를 제공
 
 사용 기술 : Next.js,TypeScript,Tailwind css,Tanstack Query
