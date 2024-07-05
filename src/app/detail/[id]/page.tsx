@@ -18,9 +18,9 @@ export const generateMetadata = async (
 
   return {
     title: result.korean_name,
+    description: `${result.korean_name} 상세 페이지 `,
   };
 };
-//메타데이터
 
 const detailPage = ({ params }: { params: { id: string } }) => {
   const paramsId = params.id;
