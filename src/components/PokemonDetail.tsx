@@ -33,7 +33,7 @@ const PokemonDetail = async ({ paramsId }: { paramsId: string }) => {
   return (
     <div className="w-4/5 mx-auto my-8 flex flex-col justify-center items-center border-2 rounded-2xl">
       <header className="">
-        <h1 className="text-4xl w-fit mx-auto mt-10 mb-5  py-4 px-12 font-bold bg-amber-500 rounded-full">
+        <h1 className="text-4xl w-fit mx-auto mt-10 mb-5  py-4 px-12 font-bold bg-sky-500 rounded-full">
           {korean_name}
         </h1>
         <div className="w-fit mx-auto">No.0{pokemonId}</div>
@@ -47,13 +47,13 @@ const PokemonDetail = async ({ paramsId }: { paramsId: string }) => {
         />
       </figure>
       <section className=" flex flex-col justify-center items-center">
-        <h2 className="font-bold">상세 정보</h2>
+        <h2 className="font-bold text-xl mt-7 mb-3">상세 정보</h2>
         <p>키 : {height * 10}cm</p>
         <p>몸무게 : {weight / 10}kg</p>
         <p>타입 : {types.map((t) => t.type.korean_name).join(", ")}</p>
         <p>특성 : {abilities.map((a) => a.ability.korean_name).join(", ")}</p>
         <br />
-        <p className="font-bold">기술</p>
+        <p className="font-bold mb-2">기술</p>
         <ul className="grid grid-cols-9 ">
           {moves.map((m) => (
             <li className=" flex justify-center">{m.move.korean_name}</li>
