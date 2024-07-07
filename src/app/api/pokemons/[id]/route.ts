@@ -64,6 +64,6 @@ export const GET = async (
     return NextResponse.json(pokemonData);
   } catch (error) {
     console.error("Error fetching Pokemon data:", error);
-    return NextResponse.json({ error1: "Failed to fetch data" });
+    return NextResponse.json({ error: "Failed to fetch data" });
   }
 };

@@ -20,8 +20,6 @@ const PokemonList = () => {
     queryFn: fetchPokemons,
   });
 
-  console.log(pokemons);
-
   if (isLoading) {
     return <div>로딩중...</div>;
   }

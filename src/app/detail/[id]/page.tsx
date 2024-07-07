@@ -3,10 +3,10 @@ import { Pokemon } from "@/types/pokemon";
 import { Metadata, ResolvingMetadata } from "next";
 import React from "react";
 
-type DetailPageProps = {
+interface DetailPageProps {
   params: { id: string };
   searchParams: { [key: string]: string };
-};
+}
 
 export const generateMetadata = async (
   { params, searchParams }: DetailPageProps,

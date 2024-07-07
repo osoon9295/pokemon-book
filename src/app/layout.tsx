@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import QueryProvider from "./provider";
+import QueryProvider from "./Provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Pokemon-Book",
-  description: "1세대 포켓몬 정보",
+  description: "포켓몬 도감",
 };
 
 export default function RootLayout({
